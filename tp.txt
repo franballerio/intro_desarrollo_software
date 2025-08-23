@@ -1,0 +1,11 @@
+El approach del ejercicio consiste en un script que corra hasta que se le indique lo contrario
+debe tener 5 opciones + la opcion de salida
+se debe poder correr con un parametro optativo
+
+debemos solicitar 2 parametros
+
+op1 --> crear carpetas en una ruta especifica
+op2 --> correr otro script
+op3, 4, 5 --> si existe archivo en un dir, extraer info del mismo
+op 6 --> salir
+
