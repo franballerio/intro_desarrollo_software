@@ -1,0 +1,6 @@
+99876 Carlos Perez cperez@fi.uba.ar 7
+115432 Ana Gomez agomez@fi.uba.ar 9
+88765 Martin Sosa msosa@fi.uba.ar 4
+103214 Sofia Rossi srossi@fi.uba.ar 6
+95431 Laura Diaz ldiaz@fi.uba.ar 8
+120987 David Alonso dalonso@fi.uba.ar 10
