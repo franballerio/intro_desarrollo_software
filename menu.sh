@@ -5,6 +5,18 @@ if [[ -z $FILENAME ]]; then
     exit
 fi
 # si la variable no esta definida o vacia
+if [ $# -eq 1 ]; then
+    if [ $1 == "-d" ]; then
+        pkill -f "consolidar.sh"
+        sudo rm -r EPNro1
+        echo "procesos y directorios borrados con exito ;c"
+        
+        echo -e "\n----------------------"
+        echo -e "----------------------\n"
+        exit
+        
+    fi
+fi
 
 directorio="/home/EPNro1"
 entrada="$directorio/entrada"
@@ -16,7 +28,7 @@ while [[ "$a" -ne 6 ]]
 do
     echo -e "\n\t----------------------"
     echo -e "\t----------------------\n"
-    echo -e "Seleccionar una de las siguientes opciones:\n\t1 - Crear Entorno\n\t2 - Correr Proceso\n\t3 - Alumnos\n\t4 - Top 10\n\t5 - Buscar por padron\n\t6 - Salir\n\td - borrar entorno ;c"
+    echo -e "Seleccionar una de las siguientes opciones:\n\t1 - Crear Entorno\n\t2 - Correr Proceso\n\t3 - Alumnos\n\t4 - Top 10\n\t5 - Buscar por padron\n\t6 - Salir"
     echo -e "\n\t----------------------"
     echo -e "\t----------------------\n"
     read a
@@ -93,13 +105,6 @@ EOF
             echo -e "\n\t----------------------"
             echo -e "\t----------------------\n"
             ;;
-        d) 
-            pkill -f "consolidar.sh"
-            sudo rm -r EPNro1
-            echo "procesos y directorios borrados con exito ;c"
-            a=6
-            echo -e "\n----------------------"
-            echo -e "----------------------\n"
-            ;;
+        
     esac
 done
