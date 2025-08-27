@@ -1,5 +1,5 @@
 #!/bin/bash
-if [[ -z "${FILENAME+x}" ]]; then
+if [[ -n "${FILENAME+x}" ]]; then
     echo "debes definir la variable de ambiente FILENAME"
     exit
 fi
@@ -10,7 +10,11 @@ a=0
 
 while [ "$a" -ne 6 ]
 do
+    echo -e "\n\t------------------------------"
+    echo -e "\t------------------------------"
     echo -e "Seleccionar una de las siguientes opciones:\n\t1 - Crear Entorno\n\t2 - Correr Proceso\n\t3 - Alumnos\n\t4 - Top 10\n\t5 - Buscar por padron\n\t6 - Salir"
+    echo -e "\n\t------------------------------"
+    echo -e "\t------------------------------\n"
     read a
     case $a in
         1) 
@@ -18,10 +22,10 @@ do
              cd /home
 
     mkdir EPNro1 EPNro1/entrada EPNro1/salida EPNro1/procesado
-    touch EPNro1/salida/${filename}
+    touch EPNro1/salida/${FILENAME}
 
 
-    cat << 'EOF' > /home/EPNro1/consolidar.sh
+    cat << EOF > /home/EPNro1/consolidar.sh
         #!/bin/bash
 
         directorio="/home/EPNro1"
@@ -33,13 +37,13 @@ do
         find ${entrada} -type f -exec cat {} >> ${file_name} \; -exec echo >> ${file_name} \; -exec mv {} ${procesado}/ \;
         done
 EOF
-    chmod+x /home/EPNro1/consolidar.sh
 
     echo -e "Entorno creado correctamente"
     echo -e "\n------------\n"
     ;;
 
         2) 
+            
             bash /home/EPNro1/consolidar.sh &
             echo -e "\n------------\n"
             ;;
