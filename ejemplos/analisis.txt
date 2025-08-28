@@ -1,6 +1,20 @@
-101121 Lucas Nuñez lnunez@fi.uba.ar 4
-94321 Valentina Castro vcastro@fi.uba.ar 6
-118765 Mateo Medina mmedina@fi.uba.ar 7
-79801 Julieta Rojas jrojas@fi.uba.ar 2
-123456 Diego Benitez dbenitez@fi.uba.ar 1
-100100 Martina Morales mmorales@fi.uba.ar 5
+120101;Juan Perez;jperez@fi.uba.ar;7
+120102;Maria Rodriguez;mrodriguez@fi.uba.ar;5
+120103;Carlos Sanchez;csanchez@fi.uba.ar;8
+120104;Ana Gomez;agomez@fi.uba.ar;4
+120105;Luis Fernandez;lfernandez@fi.uba.ar;9
+120106;Laura Diaz;ldiaz@fi.uba.ar;2
+120107;Javier Martinez;jmartinez@fi.uba.ar;6
+120108;Sofia Lopez;slopez@fi.uba.ar;10
+120109;Martin Hernandez;mhernandez@fi.uba.ar;3
+120110;Lucia Gonzalez;lgonzalez@fi.uba.ar;1
+120111;Daniel Romero;dromero@fi.uba.ar;7
+120112;Paula Sosa;psosa@fi.uba.ar;5
+120113;Alejandro Alvarez;aalvarez@fi.uba.ar;8
+120114;Camila Torres;ctorres@fi.uba.ar;4
+120115;Matias Ruiz;mruiz@fi.uba.ar;9
+120116;Valentina Ramirez;vramirez@fi.uba.ar;2
+120117;Sebastian Flores;sflores@fi.uba.ar;6
+120118;Isabella Acosta;iacosta@fi.uba.ar;10
+120119;Nicolas Benitez;nbenitez@fi.uba.ar;3
+120120;Catalina Medina;cmedina@fi.uba.ar;1

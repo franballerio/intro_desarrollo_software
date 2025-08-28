@@ -1,6 +1,20 @@
-99876 Carlos Perez cperez@fi.uba.ar 7
-115432 Ana Gomez agomez@fi.uba.ar 9
-88765 Martin Sosa msosa@fi.uba.ar 4
-103214 Sofia Rossi srossi@fi.uba.ar 6
-95431 Laura Diaz ldiaz@fi.uba.ar 8
-120987 David Alonso dalonso@fi.uba.ar 10
+120122;Julieta Gutierrez;jgutierrez@fi.uba.ar;4
+120136;Olivia Vega;ovega@fi.uba.ar;10
+120125;Santiago Castro;scastro@fi.uba.ar;6
+120124;Agustina Vazquez;avazquez@fi.uba.ar;2
+120134;Delfina Duran;dduran@fi.uba.ar;2
+120135;Ignacio Molina;imolina@fi.uba.ar;6
+120137;Franco Cabrera;fcabrera@fi.uba.ar;3
+120126;Victoria Ortiz;vortiz@fi.uba.ar;10
+120132;Renata Moya;rmoya@fi.uba.ar;4
+120138;Pilar Rios;prios@fi.uba.ar;1
+120130;Abril Rojas;arojas@fi.uba.ar;5
+120140;Juana Silva;jsilva@fi.uba.ar;5
+120123;Federico Pereyra;fpereyra@fi.uba.ar;9
+120133;Tomas Bravo;tbravo@fi.uba.ar;9
+120127;Manuel Reyes;mreyes@fi.uba.ar;3
+120128;Martina Nuñez;mnunez@fi.uba.ar;1
+120129;Emiliano Morales;emorales@fi.uba.ar;7
+120139;Ezequiel Campos;ecampos@fi.uba.ar;7
+120131;Joaquin Serrano;jserrano@fi.uba.ar;8
+120121;Facundo Gimenez;fgimenez@fi.uba.ar;8
