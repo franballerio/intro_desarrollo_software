@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 directorio="/home/EPNro1"
 entrada="$directorio/entrada"
 file_name="$directorio/salida/$FILENAME"
@@ -21,11 +20,10 @@ if [ $# -eq 1 ]; then
         echo -e "\n----------------------"
         echo -e "----------------------\n"
         exit
-        
     fi
 fi
 
-a=0
+opcion=0
 while [[ "$a" -ne 6 ]]
 do
     #echo -e "\n\t----------------------"
@@ -34,7 +32,7 @@ do
     echo -e "\n------------------------------------------------\n"
     #echo -e "\t----------------------\n"
     read a
-    case $a in
+    case $opcion in
         1)  
             if [[ -d $directorio ]]; then
                 echo "Entorno ya existente"
