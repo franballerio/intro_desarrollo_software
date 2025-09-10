@@ -1,0 +1,2 @@
+ls EPNro1/entrada EPNro1/procesado EPNro1/salida
+
