@@ -50,16 +50,16 @@ body {
 }
 
 .contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 3rem;
-    align-items: start;
+    justify-content: center;
 }
 
 /* Contact Form Styling */
 .contact-form-wrapper {
     background: var(--surface);
-    padding: 2.5rem;
+    width: 100%;
+    padding: 2rem;
     border-radius: 1rem;
     border: 1px solid rgba(99, 102, 241, 0.2);
 }
@@ -80,12 +80,12 @@ body {
 
 .form-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr) ;
     gap: 1rem;
 }
 
 .form-group {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .form-group label {
@@ -100,7 +100,7 @@ body {
 .form-group select,
 .form-group textarea {
     width: 100%;
-    padding: 0.875rem;
+    padding: 0.75rem;
     background: rgba(15, 23, 42, 0.5);
     border: 1px solid rgba(99, 102, 241, 0.2);
     border-radius: 0.5rem;
@@ -396,5 +396,10 @@ p a:hover {
 
     .feature-stats {
         justify-content: center;
+    }
+
+    .gratis {
+        font-weight: bolder;
+        font-size: larger;
     }
 }
