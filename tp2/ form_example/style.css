@@ -1,0 +1,164 @@
+/* Basic Reset & Body Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* IMPORTANT: Add your background image URL here */
+    /* background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2070') no-repeat center center/cover; */
+}
+
+/* Main Glassmorphism Container */
+.container {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    background: rgba(20, 20, 20, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(25px); /* The blur effect */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden; /* Ensures content stays within rounded corners */
+}
+
+/* Left Side - The Form */
+.form-section {
+    flex: 1; /* Takes up half the space */
+    background: rgba(10, 10, 10, 0.5); /* Slightly darker and more opaque */
+    /* padding: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 350px;
+    color: #e0e0e0;
+}
+
+.logo img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.form-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.form-wrapper p {
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Form Elements */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.input-group input::placeholder {
+    color: #a0a0a0;
+}
+
+.terms-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+}
+
+.terms-group input {
+    margin-right: 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #e0e0e0;
+}
+
+/* Separator & Social Logins */
+.separator {
+    text-align: center;
+    margin: 25px 0;
+    color: #a0a0a0;
+    font-size: 0.8rem;
+}
+
+.social-logins {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Login Link */
+.login-link {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.login-link a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Right Side - The Image */
+.image-section {
+    flex: 1;
+    width: 100%;
+    background-image: url('https://mtbtours.com/wp-content/uploads/2021/01/DSC07730.jpg');
+    background-size: cover; /* Makes image cover the entire container */
+    background-position: -180px; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: scroll;
+}
+
