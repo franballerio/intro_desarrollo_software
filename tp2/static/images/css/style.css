@@ -8,20 +8,27 @@ http://www.tooplate.com/view/2081-solution
 
 body
 	{
-		background: #ffffff;
+		background: #03010e;
         font-family: 'Raleway', sans-serif;
 		font-weight: 400;
         position: relative;
 	}
 
 h2, h3, h4
-    {
+    {   color: #FFFFFF;
         font-weight: bold;
     }
 
 p
     {
+        color: #FFFFFF;
         line-height: 26px;
+    }
+a
+    {
+        color: #e013e7;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
     }
 
 /* start all section */
@@ -37,7 +44,7 @@ p
 /* start nagivation */
 .navbar-default
     {
-        background: #fff;
+        background: #210622;
         border: none;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         margin: 0 !important;
@@ -58,12 +65,12 @@ p
     }
 .navbar-default .navbar-nav li a:hover
     {
-        color: #93ca3a;
+        color: #7a097a;
     }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #93ca3a;
+  color: #7d0688;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle
@@ -73,7 +80,7 @@ p
     }
 .navbar-default .navbar-toggle .icon-bar
     {
-        background: #93ca3a;
+        background: #ca3ac3;
         border-color: transparent;
     }
 .navbar-default .navbar-toggle:hover,
@@ -116,7 +123,7 @@ p
   width: 100%;
 }
 .slider-caption {
-  color:white;
+  color:rgb(255, 255, 255);
   margin: 0;
   position: absolute;
   top: 0;
@@ -140,7 +147,7 @@ p
 }
 .flexslider .btn
 {
-    background: #93ca3a;
+    background: #920e9e;
     border-radius: 0;
     border: 2px solid transparent;
     color: #FFFFFF;
@@ -155,7 +162,7 @@ p
 .flexslider .btn:hover,
 .flexslider .btn:focus {
     background: #fff;
-    color: #93ca3a;
+    color: #920e9e;
     border: 2px solid transparent;
 }
 
@@ -168,13 +175,13 @@ p
     }
 #service .media .fa
     {
-        color: #202020;
+        color: #ffffff;
         font-size: 40px;
         margin-right: 20px;
     }
 #service .media .media-heading
     {
-        border-bottom: 2px solid #202020;
+        border-bottom: 2px solid #ffffff;
         font-weight: 600;
         font-size: 20px;
         padding-bottom: 10px;
@@ -187,7 +194,7 @@ p
         background: url('../images/divider-bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 #divider h2
     {
@@ -195,7 +202,7 @@ p
     }
 #divider strong
     {
-        color: #93ca3a;
+        color: #e013e7;
     }
 #divider h3
     {
@@ -210,7 +217,7 @@ p
 /* start about */
 #about h3
     {
-        color: #93ca3a;
+        color: #e013e7;
         font-size: 40px;
         padding-bottom: 10px;
     }
@@ -226,14 +233,16 @@ p
     }
 #about .progress .progress-bar-danger
     {
-        background: #93ca3a;
+        background: #e013e7;
     }
 #about .text-top
-    {
+    {   
+        color: #FFFFFF;
         padding-top: 50px;
     }
 #about span
     {
+        color: #FFFFFF;
         display: block;
         padding-bottom: 10px;
     }
@@ -247,8 +256,8 @@ p
 /* start team */
 #team
     {
-        border-top: 1px solid #f6f6f6;
-        border-bottom: 1px solid #f6f6f6;
+        border-top: 1px solid #e013e7;
+        border-bottom: 1px solid #e013e7;
         text-align: center;
     }
 #team h2
@@ -257,7 +266,7 @@ p
     }
 #team img
     {
-        border: 1px solid #f6f6f6;
+        
         display: inline-block;
         padding: 10px;
         transition: all 0.4s ease-in;
@@ -269,7 +278,7 @@ p
     }
 #team h3
     {
-        color: #93ca3a;
+        color: #e013e7;
         padding-bottom: 10px;
     }
 #team h4
@@ -283,7 +292,7 @@ p
 /* start newsletter */
 #newsletter
     {
-        background: url('../images/newsletter-bg.jpg') center center;
+        background: url('../images/ciclismo3.png') center top;
         background-size: cover;
         background-repeat: no-repeat;
         color: #ffffff;
@@ -312,7 +321,7 @@ p
     }
 #newsletter input[type="submit"]
     {
-        background: #93ca3a;
+        background: #e013e7;
         border: 2px solid transparent;
         color: #ffffff;
     }
@@ -364,14 +373,14 @@ p
  }
 #pricing .plan:hover
   {
-    background: #202020;
+    background: #ffffff;
     color: #ffffff;
     transform: scale(1.0);
   }
 #pricing .plan .plan_title
   {
     border-bottom: 1px solid #f6f6f6;
-    color: #9bc848;
+    color: #e013e7;
     font-size: 30px;
     padding: 20px;
   }
@@ -385,12 +394,13 @@ p
     padding: 20px 0 20px 0;
   }
 .premios {
+    color:#FFFFFF;
   list-style-type: none;
   padding-left: 0;
 }
 #pricing .plan .btn
   {
-    background: #93ca3a;
+    background: #e013e7;
     border: none;
     border-radius: 2px;
     font-weight: bold;
@@ -403,7 +413,7 @@ p
 #pricing .plan .btn:hover
   {
     background: #FFFFFF;
-    color: #66AF33;
+    color: #e013e7;
   }
 /* end pricing */
 
@@ -523,7 +533,7 @@ p
     }
 #contact .fa
     {
-        color: #93ca3a;
+        color: #e013e7;
         font-size: 18px;
         padding-bottom: 14px;
     }
@@ -547,7 +557,7 @@ p
     }
 #contact input[type="submit"]:hover
     {
-        background: #93ca3a;
+        background: #e013e7;
     }
  #contact .form-control::-moz-placeholder {
   color: #666;
@@ -605,7 +615,7 @@ footer .social-icon
     }
 .social-icon li a
     {
-        color: #333;
+        color: #e9b1ee;
         font-size: 13px;
         text-decoration: none;
         transition: all 0.4s ease-in-out;
@@ -665,5 +675,15 @@ footer .social-icon
             padding-top: 40px;
         }
     
+}
+#team .col-md-4 img.img-responsive {
+  width: 100%;          
+  max-width: 400px;     
+  height: auto;         
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   
+  object-fit: contain;  
+  padding: 10px 0;      
 }
 /* end templatemo 360 media quires */
